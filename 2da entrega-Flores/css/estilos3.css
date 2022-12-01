@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: open sans-serif;
+	flex-wrap: wrap;
+
+
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+	min-width: 200px;
+	margin-bottom: 0px;
+}
+
+.logo {
+    color: #642a73;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    align-content: space-between;
+    text-decoration: none;
+}
+
+/*header*/
+header {
+	width: 100%;
+    height: 600px;
+    background: url(../img/picadas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+	flex-wrap: wrap;
+
+}
+
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+	display: inline;
+	flex-wrap: wrap;
+
+}
+
+
+nav > a{
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 10px;
+	display: inline;
+	font-size: 20px;
+	min-width: 200px;
+	margin-bottom: 0px;
+}
+
+nav > a:hover{
+	text-decoration: underline;
+}
+
+header .textos-header{
+	display: flex;
+	height: 430px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.textos-header h1{
+	font-size: 50px;
+	color: rgb(63, 30, 30);
+	text-shadow: 3px 3px 0 #fff;
+	flex-wrap: wrap;
+	min-width: 200px;
+	margin-bottom: 0px;
+}
+
+
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300;
+	color: rgb(63, 30, 30);
+	text-shadow: 3px 3px 0 #fff;
+	flex-wrap: wrap;
+	min-width: 200px;
+	margin-bottom: 0px;
+	
+}
+
+
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+/*main*/
+
+.contenedor .Galeria-snacksysalsas{
+	justify-content: center;
+	display: inline;
+	flex-wrap: wrap;
+
+}
+
+h2{
+	font-size: 40px;
+	color: blueviolet;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+img{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	float: left; width: 10em; height: 10em; margin-right: 1em; 
+	transform: translate(0, 0);
+	align-content: center;
+	padding: 20px;
+	
+
+}
+
+
+.Galeria-snacksysalsas  nav{
+	width: 25%;
+	justify-content: space-between;
+	text-align: center;
+	display: inline-flex;
+	align-items: center;
+	background-image: linear-gradient(to left, violet, rgb(0, 247, 255));
+	flex-wrap: wrap;
+	
+}
+
+.imagen-snacks {
+	position: relative;
+	overflow: 250px;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+	align-items: center;
+	justify-content: center;
+	min-width: 200px;
+	margin-bottom: 0px;
+}
+
+.imagen-salsas {
+	position: relative;
+	overflow: 250px;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+	align-items: center;
+	justify-content: center;
+	min-width: 200px;
+	margin-bottom: 0px;
+	
+}
+
+h3{
+	justify-content: space-between;
+	font-size: 20px;
+	color: rgb(27, 3, 27);
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	display: inline-block;
+	padding: 10px;	
+}
+
+h3:hover{
+	text-decoration: underline;
+}
+
+/*footer*/
+
+footer{
+	background: coral;
+	padding: 10px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+	overflow: hidden;
+
+}
+
+.content-foot{
+	text-align: center;
+
+}
+
+.content-foot h4{
+	color: white;
+	border-bottom: 3px solid violet;
+	padding-bottom: 5px;
+	margin-bottom: 10px;	
+}
+
+.content-foot p{
+	color: gray;	
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 24px;
+	margin: 0 0 0 0;
+	color: gray;
+	overflow: hidden;
+}
+
+@media screen and (max-widt: 900px){
+	header{
+		background-position: center;
+	}
+}
+
